@@ -2,6 +2,7 @@
 
 * {
     font-family: Arial, Helvetica,'Times New Roman',  sans-serif;
+    box-sizing: border-box;
 }
 
 a {
@@ -15,12 +16,30 @@ p {
 }
 
 li {
-    margin: 10px;
-    text-align: justify;
+    margin: auto;
+}
+
+ul{
+    background-color: rgb(245, 245, 215);
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    display: table;
+    margin: auto;
 }
 
 body {
-    border-style: solid;
+    border-style: double;
+    width: 200px;
+    margin: 100px;
+    height: auto;
+    padding: 0px;
+    display: block;
+    vertical-align: middle;
+    align-content: center;
+    
 }
 
 p, a{
@@ -48,13 +67,17 @@ p, a{
     color: black;
     font-weight: bold;
     text-align: center;
+    margin: auto;
+    padding: 10px;
 }
 
 .link {
-    list-style-type: none;
     text-align: center;
-    margin-bottom: 10px;
     color: black;
+    padding: 10px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
 }
 
 .link2 {
